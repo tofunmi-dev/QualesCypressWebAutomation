@@ -1,7 +1,7 @@
 /// <reference types= "cypress" />
 
 describe("This test is to validate that users can succesfully add a course on quales website ", () => {
-    it("Verify user with correct credentials can login to the app", () => {
+    it("Verify user with correct credentials can add a course in the app", () => {
         //cypress visits quales academy url
         cy.visit("https://academy.quales.tech/login");
         //cypress fetches the username/email address field and inputs valid email
